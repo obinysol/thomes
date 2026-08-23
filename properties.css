@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(var(--color-bg));
+}
+
+#properties {
+  margin-top: 10rem;
+}
+
+.property-grid {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
+}
+
+.listing-image {
+  box-sizing: border-box;
+  height: 24rem;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.listing-meta h3 {
+  font-size: 0.8rem;
+}

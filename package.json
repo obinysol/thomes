@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "entities": "^4.5.0",
+    "intersection-observer": "^0.12.2",
+    "jsdom": "^24.1.1",
+    "jsdom-global": "^3.0.2",
+    "parse5": "^7.1.2"
+  }
+}

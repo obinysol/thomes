@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamani Homes</title>
+    <!-- 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <address class="contact-bar">
+      <dl class="contact-details-address">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#address"></use>
+          </svg>
+        </dt>
+        <dd>
+          23 Tamani Residences Building <br />
+          Nairobi, Kenya
+        </dd>
+      </dl>
+      <dl class="contact-details-phone">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#phone"></use>
+          </svg>
+        </dt>
+        <dd>+ 254 725 752 222 | + 254 111 463 878</dd>
+      </dl>
+      <dl class="contact-details-email">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#email"></use>
+          </svg>
+        </dt>
+        <dd>hello@tamaniresidences.com</dd>
+      </dl>
+    </address>
+    <header>
+      <nav id="navbar">
+        <a href="#" class="logo">
+          <p class="logo-text">TAMANI HOMES</p>
+        </a>
+        <input
+          style="display: none"
+          type="checkbox"
+          name="menu-hamburger"
+          id="menu-hamburger"
+        />
+        <label for="menu-hamburger" class="menu-hamburger-label"
+          ><div class="menu-hamburger-line"></div
+        ></label>
+        <ul class="menu">
+          <li><a href="#" class="menu-item focused">Home</a></li>
+          <li><a href="properties.html" class="menu-item">Properties</a></li>
+          <li><a href="#agents" class="menu-item">Agents</a></li>
+          <li><a href="#news" class="menu-item">Blog</a></li>
+          <li><a href="#contact" class="menu-item">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="slider-img s1"></div>
+      <div class="slider-img s2"></div>
+      <div class="slider-img s3"></div>
+      <section id="hero">
+        <div class="slider">
+          <h1 class="hero-heading primary-heading">
+            Find the perfect property for you
+          </h1>
+          <p class="hero-text">
+            Browse curated listings of off-plan, rental and on-sale propertes
+            tailored to your needs, budget, and lifestyle.
+          </p>
+          <a href="#" class="btn btn-hero">See Listings</a>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="properties">
+        <h1 class="primary-heading">Featured Deals</h1>
+        <article class="property-grid">
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <!-- <div class="listing">
+            <div class="listing-image"></div>
+            <h2 class="listing-title secondary-heading">Himalaya Horizon</h2>
+            <h3 class="listing-location tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use>
+              </svg>
+              Westlands, Nairobi
+            </h3>
+            <h3 class="listing-price tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-price"></use></svg
+              ><span class="listing-currency">Kes</span>
+              18,000,000
+            </h3>
+            <h3 class="listing-type tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use></svg
+              >Sale
+            </h3>
+          </div>
+          <div class="listing">
+            <div class="listing-image"></div>
+            <h2 class="listing-title secondary-heading">Dolce Vita</h2>
+            <h3 class="listing-location tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use>
+              </svg>
+              Westlands, Nairobi
+            </h3>
+            <h3 class="listing-price tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-price"></use></svg
+              ><span class="listing-currency">Kes</span>
+              40,000
+            </h3>
+            <h3 class="listing-type tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use></svg
+              >Rent
+            </h3>
+          </div> -->
+        </article>
+        <a href="./properties.html" class="btn">Load More</a>
+      </section>
+      <section id="agents">
+        <h1 class="agents-heading primary-heading">Your Trusted Agents</h1>
+        <p class="agents-intro">
+          Connect with a team of experienced agents who guide you through every
+          step, ensuring smooth, informed decisions and reliable support
+          throughout your journey.
+        </p>
+        <div class="agents-container">
+          <article class="agent">
+            <div class="agent-image">
+              <address class="agent-socials">
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#fb"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#instagram"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#x"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </address>
+            </div>
+            <div class="agent-meta">
+              <h2 class="agent-name secondary-heading">Mary Jane</h2>
+              <p class="agent-title">
+                <svg class="agent-icon">
+                  <use href="icons.svg#icon-title"></use></svg
+                >Nairobi Area Coordinator
+              </p>
+              <p class="agent-fulfilment">
+                <svg class="agent-icon">
+                  <use href="icons.svg#icon-business"></use>
+                </svg>
+                <em class="agent-fulfilment-count">88</em> Dream Homes Fulfilled
+              </p>
+            </div>
+          </article>
+          <article class="agent">
+            <div class="agent-image">
+              <address class="agent-socials">
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#fb"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#instagram"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#x"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="agent-social-icons">
+                    <use href="icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </address>
+            </div>
+            <div class="agent-meta">
+              <h2 class="agent-name secondary-heading">John Doe</h2>
+              <p class="agent-title">
+                <svg class="agent-icon">
+                  <use href="icons.svg#icon-title"></use></svg
+                >Mombasa Agent
+              </p>
+              <p class="agent-fulfilment">
+                <svg class="agent-icon">
+                  <use href="icons.svg#icon-business"></use>
+                </svg>
+                <em class="agent-fulfilment-count">67</em> Dream Homes Fulfilled
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="hiw">
+        <h2 class="hiw-heading primary-heading">How it Works</h1>
+        <ol class="hiw-container">
+          <li class="hiw-entry">
+            <div class="hiw-icon-wrapper">
+              <svg class="hiw-icon">
+                <use href="icons.svg#find_home"></use>
+              </svg>
+            </div>
+            <h3 class="hiw-sub-heading secondary-heading">Find property</h2>
+            <p class="hiw-text">
+              Explore quality properties that match your lifestyle and
+              aspirations
+            </p>
+          </li>
+          <li class="hiw-entry">
+            <div class="hiw-icon-wrapper">
+              <svg class="hiw-icon">
+                <use href="icons.svg#paperwork"></use>
+              </svg>
+            </div>
+            <h3 class="hiw-sub-heading secondary-heading">Fill paperwork</h2>
+            <p class="hiw-text">
+              Simplify contractual process with our easy-to-follow digital
+              guidance
+            </p>
+          </li>
+          <li class="hiw-entry">
+            <div class="hiw-icon-wrapper">
+              <svg class="hiw-icon">
+                <use href="icons.svg#handover"></use>
+              </svg>
+            </div>
+            <h3 class="hiw-sub-heading secondary-heading">Seal the deal</h2>
+            <p class="hiw-text">
+              Finalize your purchase with confidence through a smooth and secure
+              closing process
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section id="testimonials">
+        <h1 class="testimonials-heading primary-heading">Testimonials</h1>
+        <div class="testimonials-container">
+          <article class="testimonial-entry">
+            <header class="testimonial-customer-details">
+              <div class="testimonial-customer-details-img"></div>
+              <h2 class="testimonial-customer-details-name tertiary-heading">
+                John Kimani
+              </h2>
+            </header>
+            <p class="testimonial-customer-testimony">
+              Finding my dream home in Nairobi was effortless on this site.
+              Verified listings, clear photos, and great agent connections
+              helped me close the deal in just weeks. Highly recommended!
+            </p>
+          </article>
+          <article class="testimonial-entry">
+            <header class="testimonial-customer-details">
+              <div class="testimonial-customer-details-img"></div>
+              <h2 class="testimonial-customer-details-name tertiary-heading">
+                Whitney Opondo
+              </h2>
+            </header>
+            <p class="testimonial-customer-testimony">
+              As a first-time buyer in Mombasa, I felt confident using this
+              platform. Accurate property details, price comparisons, and
+              responsive support made the whole process smooth and stress-free.
+            </p>
+          </article>
+          <article class="testimonial-entry">
+            <header class="testimonial-customer-details">
+              <div class="testimonial-customer-details-img"></div>
+              <h2 class="testimonial-customer-details-name tertiary-heading">
+                Mark Nyamai
+              </h2>
+            </header>
+            <p class="testimonial-customer-testimony">
+              I bought my beautiful home in Karen through this site. The
+              verified listings, high-quality photos, and helpful agents made
+              the entire buying process fast, transparent, and completely
+              stress-free. Truly the best!
+            </p>
+          </article>
+          <article class="testimonial-entry">
+            <header class="testimonial-customer-details">
+              <div class="testimonial-customer-details-img"></div>
+              <h2 class="testimonial-customer-details-name tertiary-heading">
+                Lucy Kioko
+              </h2>
+            </header>
+            <p class="testimonial-customer-testimony">
+              Renting my apartment in Kisumu has never been easier. Genuine
+              leads, secure payments, and useful market insights— this site
+              truly understands the Kenyan property market.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="news">
+        <h1 class="news-heading primary-heading">Our Blog</h1>
+        <div class="news-container">
+          <a class="news-entry">
+            <picture class="news-entry-image">
+              <img src="./img/news1.jpg" alt="" />
+            </picture>
+            <h2 class="news-entry-title secondary-heading">
+              Nairobi prime neighborhoods post steady property price growth
+            </h2>
+            <ul class="news-entry-meta">
+              <li class="new-entry-meta-author">Alice Waithera</li>
+              <li class="new-entry-meta-date">18 April 2026</li>
+              <li class="new-entry-meta-type">News</li>
+            </ul>
+          </a>
+          <a class="news-entry">
+            <picture class="news-entry-image">
+              <img src="./img/news2.jpg" alt="" />
+            </picture>
+            <h2 class="news-entry-title secondary-heading">
+              Affordable housing boosts new construction projects nationwide
+            </h2>
+            <ul class="news-entry-meta">
+              <li class="new-entry-meta-author">James Ondieki</li>
+              <li class="new-entry-meta-date">10 April 2026</li>
+              <li class="new-entry-meta-type">News</li>
+            </ul>
+          </a>
+          <a class="news-entry">
+            <picture class="news-entry-image">
+              <img src="./img/news3.jpg" alt="" />
+            </picture>
+            <h2 class="news-entry-title secondary-heading">
+              Kenya Homes Expo 2026 showcases housing and investment deals.
+            </h2>
+            <ul class="news-entry-meta">
+              <li class="new-entry-meta-author">Alison Mwajuma</li>
+              <li class="new-entry-meta-date">3 April 2026</li>
+              <li class="new-entry-meta-type">Event</li>
+            </ul>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="contact-heading primary-heading">Get in touch</h1>
+        <div class="contact-container">
+          <form action="" class="contact-form">
+            <p class="contact-name">
+              <label for="contact-name-input">Full Name</label>
+              <input required id="contact-name-input" type="text" />
+            </p>
+            <p class="contact-email">
+              <label for="contact-email-email">Email</label>
+              <input required id="contact-email-email" type="email" />
+            </p>
+            <p class="contact-subject">
+              <label for="contact-subject-subject">Subject</label>
+              <input required id="contact-subject-subject" type="text" />
+            </p>
+            <p class="contact-message">
+              <label for="contact-message-text">Message</label>
+              <textarea
+                name="contact-message-text"
+                id="contact-message-text"
+                required
+              ></textarea>
+            </p>
+            <button class="btn btn-submit">Send Message</button>
+          </form>
+          <article class="contact-details">
+            <div class="contact-details-address">
+              <h2 class="secondary-heading">Address</h2>
+              <address>
+                <svg class="contact-details-icons">
+                  <use href="icons.svg#building"></use>
+                </svg>
+                23 Tamani Residences Building
+                <br />
+                <svg class="contact-details-icons">
+                  <use href="icons.svg#address"></use>
+                </svg>
+                Nairobi, Kenya
+              </address>
+            </div>
+            <div class="contact-details-phone">
+              <h2 class="secondary-heading">Phone</h2>
+              <address>
+                <svg class="contact-details-icons">
+                  <use href="icons.svg#phone"></use>
+                </svg>
+                +254725752222
+              </address>
+            </div>
+            <div class="contact-details-email">
+              <h2 class="secondary-heading">Email</h2>
+              <address>
+                <svg class="contact-details-icons">
+                  <use href="icons.svg#email"></use>
+                </svg>
+                hello@tamaniresidences.com
+              </address>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="about">
+        <h2 class="about-heading secondary-heading">About Us</h2>
+        <p class="about-text">
+          We are a Kenyan-based real estate company committed to providing our
+          customers the best of what the market has to offer at honest prices.
+        </p>
+      </div>
+      <div id="subscribe">
+        <h2 class="subscribe-heading secondary-heading">
+          Subscribe to our newsletter
+        </h2>
+        <form action="" class="subscribe">
+          <input type="text" placeholder="Enter email" />
+          <button class="btn btn-submit">Send</button>
+        </form>
+      </div>
+      <div id="follow">
+        <h2 class="follow-heading secondary-heading">Follow Us</h2>
+        <address class="footer-social-icons-container">
+          <svg class="footer-social-icons"><use href="icons.svg#fb"></use></svg>
+          <svg class="footer-social-icons"><use href="icons.svg#x"></use></svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#instagram"></use>
+          </svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#linkedin"></use>
+          </svg>
+        </address>
+      </div>
+      <div id="copyright">
+        <p><small class="copyright-text">
+          © 2026 Tamani Residences. All rights reserved
+        </small></p>
+      </div>
+    </footer>
+  </body>
+</html>

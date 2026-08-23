@@ -1,0 +1,1332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Listings | Tamani Homes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="properties.css" />
+    <script defer src="properties.js"></script>
+  </head>
+  <body>
+    <address class="contact-bar">
+      <dl class="contact-details-address">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#address"></use>
+          </svg>
+        </dt>
+        <dd>
+          23 Tamani Residences Building <br />
+          Nairobi, Kenya
+        </dd>
+      </dl>
+      <dl class="contact-details-phone">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#phone"></use>
+          </svg>
+        </dt>
+        <dd>+ 254 725 752 222 | + 254 111 463 878</dd>
+      </dl>
+      <dl class="contact-details-email">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#email"></use>
+          </svg>
+        </dt>
+        <dd>hello@tamaniresidences.com</dd>
+      </dl>
+    </address>
+    <header>
+      <nav id="navbar">
+        <a href="#" class="logo">
+          <p class="logo-text">TAMANI HOMES</p>
+        </a>
+        <input
+          style="display: none"
+          type="checkbox"
+          name="menu-hamburger"
+          id="menu-hamburger"
+        />
+        <label for="menu-hamburger" class="menu-hamburger-label"
+          ><div class="menu-hamburger-line"></div
+        ></label>
+        <ul class="menu">
+          <li><a href="index.html" class="menu-item">Home</a></li>
+          <li><a href="#" class="menu-item focused">Properties</a></li>
+          <li><a href="index.html#agents" class="menu-item">Agents</a></li>
+          <li><a href="index.html#news" class="menu-item">Blog</a></li>
+          <li><a href="index.html#contact" class="menu-item">Contact Us</a></li>
+        </ul>
+      </nav>
+      <article class="search-bar">
+        <form class="search-form" action="">
+          <p>
+            <label for="location"
+              ><svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use></svg
+            ></label>
+            <input
+              placeholder="Location"
+              type="text"
+              name="location"
+              id="location"
+              autocomplete="off"
+            />
+          </p>
+          <p>
+            <label for="property-type"
+              ><svg class="listing-icon">
+                <use href="icons.svg#home"></use></svg
+            ></label>
+            <select name="property-type" id="property-type">
+              <option value="house">House</option>
+              <option value="apartment">Apartment</option>
+            </select>
+          </p>
+          <p>
+            <label for=""
+              ><svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use></svg
+            ></label>
+            <select name="listing-tag" id="listing-tag">
+              <option value="sale">Sale</option>
+              <option value="rent">Rent</option>
+              <option value="stay">Stay</option>
+            </select>
+          </p>
+          <p>
+            <label for=""
+              ><svg class="listing-icon">
+                <use href="icons.svg#icon-price"></use></svg
+            ></label>
+            <select name="price-range" id="price-range">
+              <option value="range1">1,000-49,999</option>
+              <option value="range3">50,000-99,000</option>
+              <option value="range2">100,000-499,999</option>
+              <option value="range4">500,000-999,999</option>
+              <option value="range5">1,000,000-9,999,999</option>
+              <option value="range5">10,000,000-99,999,999</option>
+              <option value="range5">+100,000,000</option>
+            </select>
+          </p>
+          <button class="btn" type="submit">
+            <svg class="listing-icon">
+              <use href="icons.svg#search-glass"></use></svg
+            >Search
+          </button>
+        </form>
+      </article>
+    </header>
+    <main>
+      <section id="properties">
+        <div class="property-grid">
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals1.jpg" alt="Rhapta One" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <strong class="listing-currency">KES</strong>10,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Lavington, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">3 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Off-Plan
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals2.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>18,000,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Westlands, Nairobi
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">House</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">2 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Sale
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">1 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">70 </span>
+                <span class="listing-size-unit">sqm</span>
+              </h3>
+            </div>
+          </article>
+          <article class="listing">
+            <picture class="listing-image">
+              <img src="./img/deals3.jpg" alt="" />
+            </picture>
+            <!-- <h2 class="listing-title secondary-heading">Rhapta One</h2> -->
+            <h2 class="listing-title secondary-heading">
+              <span class="listing-currency">KES</span>70,000
+            </h2>
+            <!-- <p class="listing-description">
+              A serene property situated 8km from Nairobi central business
+              district
+            </p> -->
+            <div class="listing-meta">
+              <h3 class="listing-location tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-pin"></use>
+                </svg>
+                Nyali, Mombasa
+              </h3>
+              <!-- <h3 class="listing-price tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-price"></use></svg
+                ><span class="listing-currency">Kes</span>
+                10,000,000
+              </h3> -->
+              <h3 class="listing-type tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#home"></use></svg
+                ><span class="listing-type-option">Apartment</span>
+              </h3>
+              <h3 class="listing-bed tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bed"></use></svg
+                ><span class="listing-bed-count">4 </span> Bedroom(s)
+              </h3>
+              <h3 class="listing-tag tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#icon-tag"></use></svg
+                >Rent
+              </h3>
+              <h3 class="listing-bath tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#bathroom"></use></svg
+                ><span class="listing-bath-count">2 </span> Bathroms(s)
+              </h3>
+              <h3 class="listing-size tertiary-heading">
+                <svg class="listing-icon">
+                  <use href="icons.svg#size"></use></svg
+                ><span class="listing-size-num">241 </span>
+                <span class="listing-size-unit">sqft</span>
+              </h3>
+            </div>
+          </article>
+          <!-- <div class="listing">
+            <div class="listing-image"></div>
+            <h2 class="listing-title secondary-heading">Himalaya Horizon</h2>
+            <h3 class="listing-location tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use>
+              </svg>
+              Westlands, Nairobi
+            </h3>
+            <h3 class="listing-price tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-price"></use></svg
+              ><span class="listing-currency">Kes</span>
+              18,000,000
+            </h3>
+            <h3 class="listing-type tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use></svg
+              >Sale
+            </h3>
+          </div>
+          <div class="listing">
+            <div class="listing-image"></div>
+            <h2 class="listing-title secondary-heading">Dolce Vita</h2>
+            <h3 class="listing-location tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use>
+              </svg>
+              Westlands, Nairobi
+            </h3>
+            <h3 class="listing-price tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-price"></use></svg
+              ><span class="listing-currency">Kes</span>
+              40,000
+            </h3>
+            <h3 class="listing-type tertiary-heading">
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use></svg
+              >Rent
+            </h3>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="about">
+        <h2 class="about-heading secondary-heading">About Us</h2>
+        <p class="about-text">
+          We are a Kenyan-based real estate company committed to providing our
+          customers the best of what the market has to offer at honest prices.
+        </p>
+      </div>
+      <div id="subscribe">
+        <h2 class="subscribe-heading secondary-heading">
+          Subscribe to our newsletter
+        </h2>
+        <form action="" class="subscribe">
+          <input type="text" placeholder="Enter email" />
+          <button class="btn btn-submit">Send</button>
+        </form>
+      </div>
+      <div id="follow">
+        <h2 class="follow-heading secondary-heading">Follow Us</h2>
+        <address class="footer-social-icons-container">
+          <svg class="footer-social-icons"><use href="icons.svg#fb"></use></svg>
+          <svg class="footer-social-icons"><use href="icons.svg#x"></use></svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#instagram"></use>
+          </svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#linkedin"></use>
+          </svg>
+        </address>
+      </div>
+      <div id="copyright">
+        <p class="copyright-text">
+          © 2026 Tamani Residences. All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
