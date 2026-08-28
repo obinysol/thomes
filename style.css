@@ -348,8 +348,10 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: inherit;
+  height: inherit;
   /* inset: 0; */
   background: rgb(var(--color-primary) / 0.3);
   z-index: 1;
@@ -579,10 +581,17 @@ header {
 }
 
 .listing-icon {
-  height: 1.2rem;
-  width: 1.2rem;
+  /* height: 1.2rem;
+  width: 1.2rem; */
+  height: 1.2em;
+  width: 1.2em;
   margin-right: 0.6rem;
   color: inherit;
+}
+
+*:has(> .listing-icon) {
+  display: flex;
+  align-items: center;
 }
 
 .listing-meta * span {
