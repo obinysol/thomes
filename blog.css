@@ -1,0 +1,9 @@
+#hero.hero-blog {
+  height: 30vh;
+  padding-top: 8rem;
+  /* justify-content: space-evenly; */
+}
+
+#hero.hero-blog .primary-heading {
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Listings | Tamani Homes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="property.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <address class="contact-bar">
+      <dl class="contact-details-address">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#address"></use>
+          </svg>
+        </dt>
+        <dd>
+          23 Tamani Residences Building <br />
+          Nairobi, Kenya
+        </dd>
+      </dl>
+      <dl class="contact-details-phone">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#phone"></use>
+          </svg>
+        </dt>
+        <dd>+ 254 725 752 222 | + 254 111 463 878</dd>
+      </dl>
+      <dl class="contact-details-email">
+        <dt>
+          <svg class="contact-details-icons">
+            <use href="icons.svg#email"></use>
+          </svg>
+        </dt>
+        <dd>hello@tamaniresidences.com</dd>
+      </dl>
+    </address>
+    <header>
+      <nav id="navbar">
+        <a href="#" class="logo">
+          <p class="logo-text">TAMANI HOMES</p>
+        </a>
+        <input
+          style="display: none"
+          type="checkbox"
+          name="menu-hamburger"
+          id="menu-hamburger"
+        />
+        <label for="menu-hamburger" class="menu-hamburger-label"
+          ><div class="menu-hamburger-line"></div
+        ></label>
+        <ul class="menu">
+          <li><a href="/index.html" class="menu-item">Home</a></li>
+          <li><a href="/properties.html" class="menu-item">Properties</a></li>
+          <li><a href="/index.html#agents" class="menu-item">Agents</a></li>
+          <li><a href="/blogs.html" class="menu-item">Blog</a></li>
+          <li>
+            <a href="/index.html#contact" class="menu-item">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="hero" class="hero-property">
+        <h1 class="hero-heading primary-heading">Berkeley Residency</h1>
+        <p class="hero-property-text">
+          <svg class="listing-icon">
+            <use href="icons.svg#icon-pin"></use>
+          </svg>
+          Westlands, Nairobi
+        </p>
+        <picture class="slider-img"><img src="img/hero.jpeg" alt="" /></picture>
+      </section>
+    </header>
+    <main class="property-container">
+      <section class="property-photos">
+        <picture class="listing-image">
+          <img src="./img/deals1.jpg" alt="Rhapta One" />
+        </picture>
+      </section>
+      <section class="property-pricing">
+        <h2 class="primary-heading property-price">
+          <svg class="listing-icon">
+            <use href="icons.svg#icon-price"></use>
+          </svg>
+          <span class="currency">KES </span>10,000,000
+        </h2>
+        <form action="" class="property-availability">
+          <p>
+            <label for="converter">
+              <svg class="listing-icon">
+                <use href="icons.svg#currency"></use>
+              </svg>
+              Currency: </label
+            ><select name="converter" id="converter">
+              <option value="kes">KES</option>
+              <option value="usd">USD</option>
+            </select>
+          </p>
+          <p>
+            <label for="converter">
+              <svg class="listing-icon">
+                <use href="icons.svg#unit-type"></use>
+              </svg>
+              Unit Type:
+            </label>
+            <select name="converter" id="converter">
+              <option value="kes">1 Bedroom 1 bath</option>
+              <option value="usd">1 Bedroom + Study 1 bath</option>
+              <option value="usd">2 Bedroom 2 bath</option>
+              <option value="usd">2 Bedroom + Study 2 bath</option>
+            </select>
+          </p>
+          <p>
+            <label for="converter">
+              <svg class="listing-icon">
+                <use href="icons.svg#completion-status"></use>
+              </svg>
+              Completion Status: </label
+            ><select name="converter" id="converter">
+              <option value="usd">Under Construction</option>
+              <option value="kes">Ready for Viewing</option>
+              <option value="usd">Ready for Occupation</option>
+            </select>
+          </p>
+          <button class="btn">
+            <svg class="listing-icon">
+              <use href="icons.svg#search-glass"></use></svg
+            >Check Availability
+          </button>
+        </form>
+        <p class="property-availability-text">
+          <svg class="listing-icon">
+            <use href="icons.svg#available"></use>
+          </svg>
+          This property is available
+        </p>
+        <a href="" class="btn">
+          <svg class="listing-icon">
+            <use href="icons.svg#booking"></use>
+          </svg>
+          Book Viewing
+        </a>
+        <p class="property-availability-text">
+          <svg class="listing-icon">
+            <use href="icons.svg#unavailable"></use>
+          </svg>
+          This property is currently unavailable
+        </p>
+        <a href="" class="btn">
+          <svg class="listing-icon">
+            <use href="icons.svg#notification"></use>
+          </svg>
+          Get Notified
+        </a>
+      </section>
+      <section class="property-details">
+        <dl class="listing-meta">
+          <div class="listing-location tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-pin"></use>
+              </svg>
+            </dd>
+            <dt>Westlands, Nairobi</dt>
+          </div>
+          <div class="listing-type tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#home"></use>
+              </svg>
+            </dd>
+            <dt><span class="listing-type-option">House</span></dt>
+          </div>
+          <div class="listing-bed tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#bed"></use>
+              </svg>
+            </dd>
+            <dt><span class="listing-bed-count">2 </span> Bedroom(s)</dt>
+          </div>
+          <div class="listing-tag tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#icon-tag"></use>
+              </svg>
+            </dd>
+            <dt>Sale</dt>
+          </div>
+          <div class="listing-bath tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#bathroom"></use>
+              </svg>
+            </dd>
+            <dt><span class="listing-bath-count">1 </span> Bathroms(s)</dt>
+          </div>
+          <div class="listing-size tertiary-heading">
+            <dd>
+              <svg class="listing-icon">
+                <use href="icons.svg#size"></use>
+              </svg>
+            </dd>
+            <dt>
+              <span class="listing-size-num">70 </span>
+              <span class="listing-size-unit">sqm</span>
+            </dt>
+          </div>
+        </dl>
+      </section>
+      <section class="property-description">
+        <h2 class="primary-heading">Property Description</h2>
+        <div class="property-description-text">
+          <p>
+            Berkeley Residency is a twin-tower residential development rising 18
+            floors above one of Nairobi's most established green corridors,
+            where the Westlands business district meets the tree-canopied calm
+            of Kileleshwa. Built across two towers — Block A and Block B — the
+            development brings together 120 homes designed for people who want
+            city convenience without giving up quiet, leafy surroundings. Rather
+            than the usual courtyard-facing apartment block, Berkeley is built
+            around vertical living: every home looks out over the Nairobi
+            skyline, arboretum canopy, or the surrounding residential avenues,
+            with a full rooftop level dedicated to recreation, wellness, and
+            entertaining above the noise of the street. luxury.
+          </p>
+        </div>
+      </section>
+      <section class="property-agent">
+        <article class="agent">
+          <address class="agent-image">
+            <nav class="agent-socials">
+              <a href="">
+                <svg class="agent-social-icons">
+                  <use href="icons.svg#fb"></use>
+                </svg>
+              </a>
+              <a href="">
+                <svg class="agent-social-icons">
+                  <use href="icons.svg#instagram"></use>
+                </svg>
+              </a>
+              <a href="">
+                <svg class="agent-social-icons">
+                  <use href="icons.svg#x"></use>
+                </svg>
+              </a>
+              <a href="">
+                <svg class="agent-social-icons">
+                  <use href="icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </nav>
+          </address>
+          <dl class="agent-meta">
+            <dd class="agent-name secondary-heading">Mary Jane</dd>
+            <dt class="agent-title">
+              <svg class="agent-icon">
+                <use href="icons.svg#icon-title"></use></svg
+              >Nairobi Area Coordinator
+            </dt>
+            <dt class="agent-fulfilment">
+              <svg class="agent-icon">
+                <use href="icons.svg#icon-business"></use>
+              </svg>
+              <em class="agent-fulfilment-count">88</em> Dream Homes Fulfilled
+            </dt>
+          </dl>
+        </article>
+        <div class="property-agent-cta">
+          <a href="" class="btn">
+            <svg class="listing-icon">
+              <use href="icons.svg#phone"></use>
+            </svg>
+            Contact Agent
+          </a>
+        </div>
+      </section>
+      <section class="property-features">
+        <h2 class="primary-heading">Property Features</h2>
+        <ul>
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">The Rooftop Amenity Deck</h3>
+            <p>
+              What sets Berkeley apart is its elevated communal level — a full
+              rooftop precinct rather than a single amenity or two. Residents
+              step out of the lift into the following. An open-air rooftop pool
+              deck with panoramic city views. A climate-controlled indoor kids'
+              play zone, shielded from weather and street noise. A rooftop gym
+              and wellness deck. A resident lounge and terrace for informal
+              gatherings. On-site café/restaurant and retail arcade. A patio
+              gaming zone for evening downtime • Landscaped courtyard and
+              terrace deck areas at ground and rooftop level
+            </p>
+          </li>
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">24/7 Manned Security</h3>
+            <p>
+              Residents benefit from round-the-clock manned security, providing
+              a dependable presence throughout the property. Trained security
+              personnel monitor access and help maintain a safe, controlled
+              environment for residents, visitors, and staff. This continuous
+              security service provides added peace of mind, whether you are at
+              home, returning late, or away from the property.
+            </p>
+          </li>
+
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">
+              High-Speed Lifts Across Both Towers
+            </h3>
+            <p>
+              High-speed lifts serve both towers, providing residents and
+              visitors with quick and convenient access between floors. Designed
+              to make everyday movement effortless, the lifts reduce waiting
+              times while supporting smooth circulation throughout the
+              development. Their availability across both towers ensures
+              convenient vertical access for residents, guests, and building
+              staff.
+            </p>
+          </li>
+
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">
+              Backup Generator for Uninterrupted Power
+            </h3>
+            <p>
+              A backup generator provides an additional layer of reliability by
+              supporting essential building services during power interruptions.
+              Residents can enjoy greater continuity and convenience without the
+              disruption that can accompany outages. This dependable backup
+              infrastructure is particularly valuable for maintaining essential
+              lighting, security systems, lifts, and other important property
+              services.
+            </p>
+          </li>
+
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">Borehole Water Supply</h3>
+            <p>
+              The property benefits from a borehole water supply, providing an
+              additional source of water for the development. This
+              infrastructure helps strengthen the property's water resilience
+              and supports reliable access for residents. Combined with the
+              property's other services, the borehole contributes to a more
+              dependable and convenient residential experience throughout the
+              year.
+            </p>
+          </li>
+
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">Ample Resident Parking</h3>
+            <p>
+              Ample resident parking provides convenient space for homeowners
+              and their guests, helping make daily arrivals and departures
+              straightforward. Generous parking provision reduces the need to
+              search for suitable spaces nearby while supporting the practical
+              needs of residents with private vehicles. The dedicated parking
+              facilities complement the property's wider emphasis on comfort and
+              convenience.
+            </p>
+          </li>
+
+          <li class="property-features-list-item">
+            <h3 class="secondary-heading">Staffed Reception/Concierge Area</h3>
+            <p>
+              A staffed reception and concierge area provides residents with a
+              welcoming point of contact within the property. On-site personnel
+              can assist with general enquiries and help coordinate everyday
+              building needs, adding a polished level of service to the
+              residential experience. The reception area also creates a
+              professional and inviting first impression for residents and their
+              visitors.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="property-amenities">
+        <h2 class="primary-heading">Local Amenities</h2>
+        <p>
+          Berkeley sits at the meeting point of two of Nairobi's most in-demand
+          residential pockets — the commercial energy of Westlands and the
+          tree-lined residential calm of Kileleshwa. This dual identity — quiet
+          green suburb by day, connected city address by evening — is what
+          continues to drive strong tenant demand and resale value in this
+          specific pocket of Nairobi.
+        </p>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Shopping & Retail</h3>
+          <p>
+            Enjoy convenient access to Sarit Centre, Westgate Shopping Mall, The
+            Oval, and ABC Place, offering a wide range of retail, dining, and
+            lifestyle amenities.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Business Hubs</h3>
+          <p>
+            Major business destinations are close by, including Westlands'
+            corporate offices, GTC (Global Trade Centre), and the wider CBD,
+            supporting convenient commuting.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Schools</h3>
+          <p>
+            Nearby educational institutions include Peponi House Preparatory
+            School, International School of Kenya (ISK), and Kenton College
+            Preparatory School.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Healthcare</h3>
+          <p>
+            Residents have convenient access to leading medical facilities,
+            including Aga Khan University Hospital and MP Shah Hospital, for
+            comprehensive healthcare services.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Green Space</h3>
+          <p>
+            Nairobi Arboretum and Karura Forest offer nearby opportunities to
+            enjoy nature, outdoor recreation, walking trails, and peaceful green
+            surroundings.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Dining & Cafés</h3>
+          <p>
+            A strong selection of restaurants and coffee houses along the
+            Westlands-Kileleshwa strip provides residents with diverse dining
+            and social options.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Hospitality</h3>
+          <p>
+            Well-known hotels including Villa Rosa Kempinski, Sankara Nairobi,
+            and Ibis Styles Westlands provide nearby accommodation, dining, and
+            hospitality services.
+          </p>
+        </li>
+        <li class="property-amenities-list-item">
+          <h3 class="secondary-heading">Connectivity</h3>
+          <p>
+            Quick access to the Nairobi Expressway provides a convenient route
+            toward Jomo Kenyatta International Airport and other key
+            destinations across Nairobi.
+          </p>
+        </li>
+        <ul></ul>
+      </section>
+      <section class="property-cta">
+        <a href="" class="btn">
+          <svg class="listing-icon">
+            <use href="icons.svg#phone"></use>
+          </svg>
+          Contact Agent
+        </a>
+        <a href="" class="btn">
+          <svg class="listing-icon">
+            <use href="icons.svg#booking"></use>
+          </svg>
+          Book Viewing</a
+        >
+        <a href="" class="btn">
+          <svg class="listing-icon">
+            <use href="icons.svg#home"></use>
+          </svg>
+          See Listings</a
+        >
+      </section>
+    </main>
+    <footer>
+      <aside id="about">
+        <h2 class="about-heading secondary-heading">About Us</h2>
+        <p class="about-text">
+          We are a Kenyan-based real estate company committed to providing our
+          customers the best of what the market has to offer at honest prices.
+        </p>
+      </aside>
+      <aside id="subscribe">
+        <h2 class="subscribe-heading secondary-heading">
+          Subscribe to our newsletter
+        </h2>
+        <form action="" class="subscribe">
+          <input type="text" placeholder="Enter email" />
+          <button class="btn btn-submit">Send</button>
+        </form>
+      </aside>
+      <aside id="follow">
+        <h2 class="follow-heading secondary-heading">Follow Us</h2>
+        <nav class="footer-social-icons-container">
+          <svg class="footer-social-icons"><use href="icons.svg#fb"></use></svg>
+          <svg class="footer-social-icons"><use href="icons.svg#x"></use></svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#instagram"></use>
+          </svg>
+          <svg class="footer-social-icons">
+            <use href="icons.svg#linkedin"></use>
+          </svg>
+        </nav>
+      </aside>
+      <p id="copyright">
+        <small class="copyright-text">
+          © 2026 Tamani Residences. All rights reserved
+        </small>
+      </p>
+    </footer>
+  </body>
+</html>
